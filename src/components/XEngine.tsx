@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useStore } from "@/lib/store";
-import { Twitter, Sparkles, Copy, Check } from "lucide-react";
+import { MessageSquare, Sparkles, Copy, Check } from "lucide-react";
 
 const styles = [
   { id: "witty" as const, label: "Witty", desc: "Sharp & clever" },
@@ -44,10 +44,10 @@ export default function XEngine() {
     <div className="p-6 space-y-6">
       <div>
         <h2 className="text-xl font-bold flex items-center gap-2">
-          <Twitter className="w-5 h-5 text-blue-400" />
+          <MessageSquare className="w-5 h-5 text-blue-400" />
           X Engine
         </h2>
-        <p className="text-sm text-white/40">AI-powered X/Twitter content generation</p>
+        <p className="text-sm text-white/40">AI-powered X/MessageSquare content generation</p>
       </div>
 
       <div className="glass rounded-xl p-5 space-y-4">

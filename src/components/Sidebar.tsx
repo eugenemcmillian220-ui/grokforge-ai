@@ -1,7 +1,7 @@
 "use client";
 import { useStore } from "@/lib/store";
 import {
-  Brain, Terminal, Briefcase, Bot, TrendingUp, Twitter,
+  Brain, Terminal, Briefcase, Bot, TrendingUp, MessageSquare,
   Zap, Radio, BarChart3, Shield, Settings,
 } from "lucide-react";
 
@@ -10,7 +10,7 @@ const nav = [
   { id: "businesses", label: "Businesses", icon: Briefcase },
   { id: "agents", label: "Agents", icon: Bot },
   { id: "market", label: "Market Intel", icon: TrendingUp },
-  { id: "x-engine", label: "X Engine", icon: Twitter },
+  { id: "x-engine", label: "X Engine", icon: MessageSquare },
   { id: "doge", label: "DOGE Score", icon: Zap },
   { id: "signals", label: "Signals", icon: Radio },
   { id: "analytics", label: "Analytics", icon: BarChart3 },

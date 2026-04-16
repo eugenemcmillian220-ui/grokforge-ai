@@ -1,12 +1,12 @@
 "use client";
 import { useState } from "react";
 import { useStore } from "@/lib/store";
-import { Send, Zap, TrendingUp, FileText, Twitter } from "lucide-react";
+import { Send, Zap, TrendingUp, FileText, MessageSquare } from "lucide-react";
 
 const quickActions = [
   { label: "Analyze Market", icon: TrendingUp, prompt: "Analyze the current AI SaaS market and identify the top 3 untapped opportunities" },
   { label: "Business Plan", icon: FileText, prompt: "Create a lean business plan for an AI-powered autonomous e-commerce platform" },
-  { label: "Generate X Post", icon: Twitter, prompt: "Write a viral X post about the future of autonomous AI businesses" },
+  { label: "Generate X Post", icon: MessageSquare, prompt: "Write a viral X post about the future of autonomous AI businesses" },
   { label: "DOGE Audit", icon: Zap, prompt: "Run a DOGE efficiency audit on a typical SaaS startup with 50 employees" },
 ];
 
